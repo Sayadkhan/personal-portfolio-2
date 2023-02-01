@@ -38,6 +38,26 @@ body {
   position: relative;
 }
 
+.link-item {
+  position: relative;
+}
+
+.link-item::after {
+  background-color: var(--color-light);
+  content: "";
+  position: absolute;
+  height: 1px;
+  left: 50%;
+  bottom: -2px;
+  width: 0;
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+
+.link-item:hover::after {
+  width: 100%;
+}
+
 .hero {
   position: relative;
 }
