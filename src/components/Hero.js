@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { useHoverEffect } from "../hooks/useHoverEffect";
 
 const data = {
-  img1: "https://res.cloudinary.com/duvzeclse/image/upload/v1675733858/Personal%20Portfolio%202/Hero1_tqfsod.jpg",
+  img1: "https://res.cloudinary.com/duvzeclse/image/upload/v1675804039/Personal%20Portfolio%202/About2_tufzg3.jpg",
 
   img2: "https://res.cloudinary.com/duvzeclse/image/upload/v1675733314/Personal%20Portfolio%202/Hero2_k5iz0i.jpg",
 };
