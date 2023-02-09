@@ -5,10 +5,10 @@ import { useContactReveal } from "../hooks/gsap";
 
 const Contact = () => {
   const formRef = useRef(null);
+
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // email js
     emailjs
       .sendForm(
         process.env.REACT_APP_SERVICE_ID,
@@ -18,10 +18,10 @@ const Contact = () => {
       )
       .then(
         () => {
-          console.log("Message sent");
+          console.log("message sent");
         },
         () => {
-          console.log("Message not sent");
+          console.log("message not sent");
         }
       );
 

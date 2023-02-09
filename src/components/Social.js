@@ -5,22 +5,22 @@ const data = [
   {
     id: 1,
     title: "Facebook",
-    url: "",
+    url: "https://www.facebook.com/sayad.khan.98/",
   },
   {
     id: 2,
     title: "Twiter",
-    url: "",
+    url: "https://twitter.com/Abdulla58833783",
   },
   {
     id: 3,
     title: "GitHub",
-    url: "",
+    url: "https://github.com/Sayadkhan",
   },
   {
     id: 4,
     title: "Linkdin",
-    url: "",
+    url: "https://www.linkedin.com/in/abdullah-al-sayad-67684a20b/",
   },
   {
     id: 5,
